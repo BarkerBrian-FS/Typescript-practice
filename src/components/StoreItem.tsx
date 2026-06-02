@@ -9,7 +9,7 @@ type StoreItemProps = {
   imgUrl: string
 }
 
-export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
+export default function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
   const {
     getItemQuantity,
     increaseCartQuantity,
